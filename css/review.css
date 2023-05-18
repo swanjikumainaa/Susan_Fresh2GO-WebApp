@@ -382,4 +382,323 @@
     color: #fff;
     font-size: 2rem;
   }
+
+
+/* ------------------- login start---------------------------- */
+/*------------------------ Sign in start--------------------------------- */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  
+  
+}
+
+.form-wrapper {
+  max-width: 400px;
+  width: 100%;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #333333;
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #333333;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 0.8rem;
+  border-radius: 4px;
+  border: 1px solid #cccccc;
+}
+
+.remember-me {
+  display: flex;
+  align-items: center;
+}
+
+input[type="checkbox"],
+label[for="remember-me"] {
+  margin-bottom: 0;
+}
+
+button[type="submit"],
+button[type="button"] {
+  padding: 0.8rem;
+  background-color:  #4CAF50  ;
+  color: #ffffff;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.form-bottom {
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
+.forgot-password {
+  display: inline-block;
+  margin-bottom: 0.8rem;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.divider {
+  margin: 1rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.divider hr {
+  flex-grow: 1;
+  height: 1px;
+  background-color: #cccccc;
+  margin: 0 1rem;
+}
+
+.divider span {
+  color: #888888;
+  font-weight: bold;
+}
+
+.google-btn {
+  padding: 0.8rem;
+  background-color: #dd4b39;
+  color: #ffffff;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.google-btn i {
+  margin-right: 0.5rem;
+}
+
+.signup-link {
+  margin-top: 1.5rem;
+  color: #333333;
+}
+
+.signup-link a {
+  color: #007bff;
+  text-decoration: none;
+}
+.form-bottom a {
+  /* color: #007bff; */
+  text-decoration: none;
+}
+.form-wrapper{
+  
+  margin: 0 auto;
+  padding: 40px;
+  /* background-color:  #1E5631  ; */
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1)
+
+}
+.container{
+  /* background-image: linear-gradient(45deg, #02A108, #F3EDD4, #8BC746, #57AC5E); */
+}
+/* --------------------------------- sign in end--------------------------------- */
+
+/* ------------------------------- create account start-------------------------------------------- */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.container1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.form-wrapper1 {
+  max-width: 400px;
+  width: 100%;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #333333;
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.form-group1 {
+  margin-bottom: 1.5rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #333333;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 0.8rem;
+  border-radius: 4px;
+  border: 1px solid #cccccc;
+}
+
+button[type="submit"] {
+  padding: 0.8rem;
+  background-color: #4CAF50;
+  color: #ffffff;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.signin-link {
+  margin-top: 1.5rem;
+  color: #333333;
+  text-align: center;
+}
+
+.signin-link a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+
+
+/* -------------------------------- create account end--------------------------- */
+
+
+/* --------------------------------- password recovery start---------------------------------------------- */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.container3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  /* max-width: 500px; */
+}
+
+.form-wrapper3 {
+  max-width: 400px;
+  width: 100%;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #333333;
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.form-group3 {
+  margin-bottom: 1.5rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #333333;
+  font-weight: bold;
+}
+
+input[type="email"] {
+  width: 100%;
+  padding: 0.8rem;
+  border-radius: 4px;
+  border: 1px solid #cccccc;
+}
+
+button[type="submit"] {
+  padding: 0.8rem;
+  background-color: #4CAF50;
+  color: #ffffff;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.signin-link2 {
+  margin-top: 1.5rem;
+  color: #333333;
+  text-align: center;
+}
+
+.signin-link2 a {
+  color: #007bff;
+  text-decoration: none;
+}
+@media (max-width: 767px) {
+  .form-wrapper3 {
+    max-width: 300px;
+    width: 100%;
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+ 
+}
+
+
+
+/* ---------------------------------- password recovery end--------------------------------------------------------------------- */
+
+
+/* --------------------- login end----------------------------------- */  
   
