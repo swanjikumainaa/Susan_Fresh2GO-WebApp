@@ -126,7 +126,7 @@
   /* prt one */
   
   .Heading {
-    background: url(/image/grocery2.jpg);
+    background-image: url('../image/carousel1.jpg');
     background-repeat: no-repeat;
     background-size: 150em;
     background-position: center;
